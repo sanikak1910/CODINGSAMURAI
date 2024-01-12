@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    /* background-color:rgb(255, 251, 0); */
+}
+body{
+    background-color:#ffecd93a;
+    width:100%;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand{
+    margin:2rem 10px;
+    font-size:50px;
+    color:orangered ;
+    font-family: 'Lilita One', sans-serif;
+    text-decoration:none;
+}
+.navbar-brand:hover{
+    color:#800080;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.container1{
+    display:flex;
+    flex-direction:column;
+   align-items: center;
+   justify-content: center;
+}
+.taskbar{
+    padding:10px;
+}
+.taskbar input{
+    width:500px;
+    height:50px;
+    text-align:center;
+    border:2px solid rgb(0, 162, 255);
+    box-shadow:0 0 5px rgba(160, 160, 160, 0.527), 0 0 20px rgba(160, 160, 160, 0.527);
+    border-radius:20px;
+    background-color:rgba(199, 255, 255, 0.493);
+}
+.taskbar input:focus{
+    box-shadow: 0 0 5px rgb(56, 56, 56), 0 0 10px grey;
+    border:2px solid #800080 
+}
+.taskbar input:hover{
+    box-shadow:0 0 5px black;
+}
+.row button{
+    margin:2rem;
+    height:2.5rem;
+    width:6rem;
+    color:rgb(37, 31, 31);
+    font-weight:600;
+    font-size:18px;
+    border-radius:20px;
+    box-shadow:0 0 5px rgba(160, 160, 160, 0.527), 0 0 10px rgba(160, 160, 160, 0.527);
+}
+.submit2{
+    background-color: rgb(255, 255, 48); 
+    border:2px solid yellow;
+}
+
+.container2{
+    display:border-box;
+    border-radius:20px;
+}
+.container2{
+    background-color: rgb(199, 255, 255);
+    border:2px solid rgb(0, 162, 255)
+}
+.title{
+    font-family: 'Lilita One', sans-serif;
+    font-size:40px;
+    font-weight:100;
+    color:orangered;
+    text-align: center;
+    margin-top:5px;
+}
+.tasks{
+    height:auto;
+}
+
+.container3{
+    background-color: azure;
+    margin:10px;
+    padding:5px;
+    width:532px;
+    height:300px; 
+}
+.container3{
+    overflow:scroll;
+}
+.container3::-webkit-scrollbar {
+    width: 10px;
+}
+
+.container3  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+   
+}
+
+.container3::-webkit-scrollbar-thumb {
+     background: rgb(255, 238, 0);
+     border-radius:20px;
+}
+
+.container3::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 48); 
+}
+.tasks{
+    font-size:20px;
+    color:#800080;
+    float:left;
+    font-weight:400;
+    
+}
+.underline{
+    background-color: rgb(255, 238, 0);
+    width:500px;
+    height:2px;
+    border-radius:20px;
+    margin:0 0 0 5px;
+}
